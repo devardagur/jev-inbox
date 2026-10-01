@@ -1,0 +1,11 @@
+[project]
+name = "jev-inbox"
+version = "0.1.0"
+description = "Paste a customer message, get three decisions: category, urgency, and whether a human should step in."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "python-dotenv>=1.2.3",
+    "streamlit>=1.64.0",
+    "typesafe-sdk>=0.7.2",
+]

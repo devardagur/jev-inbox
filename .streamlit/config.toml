@@ -1,0 +1,16 @@
+[theme]
+base = "dark"
+font = "-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', sans-serif"
+headingFontWeights = 700
+baseRadius = "large"
+buttonRadius = "full"
+showWidgetBorder = true
+backgroundColor = "#000000"
+secondaryBackgroundColor = "#1c1c1e"
+textColor = "#f5f5f7"
+borderColor = "#424245"
+# Streamlit always draws primary button text in white, so the fill stays gray.
+primaryColor = "#48484a"
+
+[client]
+toolbarMode = "minimal"
